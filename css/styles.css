@@ -28,20 +28,10 @@ html {
     font-size: 1.5rem;
     color: aqua;
 }
-.Fortalezas {
-    /*mañana renombramos la clase. Es tb h2*/
+.article .h2 {
     color: var(--blue-green-color);
     text-align: center;
     font-weight: bold;
-
-}
-
-.Debilidades {
-    /*mañana renombramos la clase.Es tb h2*/
-    color: var(--blue-green-color);
-    text-align: center;
-    font-weight: bold;
-
 }
 
 .section_3 {
