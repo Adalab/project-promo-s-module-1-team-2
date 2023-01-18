@@ -1,7 +1,14 @@
-html{
+:root {
+    --blue-green-color: #099d8d;
+    --grey-color: #b8b8b9;
+}
+
+html {
     font-size: 16px;
     max-width: 320px;
+    box-sizing: border-box;
 }
+
 .section_2{
     background-color: aquamarine;
     display: flex;
@@ -20,4 +27,33 @@ html{
 .h2{
     font-size: 1.5rem;
     color: aqua;
+}
+.Fortalezas {
+    /*mañana renombramos la clase. Es tb h2*/
+    color: var(--blue-green-color);
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.Debilidades {
+    /*mañana renombramos la clase.Es tb h2*/
+    color: var(--blue-green-color);
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.section_3 {
+    background-color: var(--grey-color);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1.0rem;
+
+}
+
+.article {
+    line-height: 1.5;
+    text-align: center;
 }
