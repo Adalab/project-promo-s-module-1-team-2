@@ -3,6 +3,9 @@
     --grey-color: #b8b8b9;
     --aqua: #14d9c4;
     --white: white;
+    --dark-grey-color: #54585a;
+    --black-color: #000000;
+    --background-grey-color: #f1f1f1f1;
 }
 
 /* Font families 
@@ -49,6 +52,32 @@
     text-transform: uppercase;
     color: var(--white);
     text-decoration: none;  
+}
+
+.section_1 {
+    height: 420px;
+    background: url(#) center bottom no-repeat;
+    background-color: var(--grey-color);
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.section_1 .container {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.section_1 .h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 14px;
+    background-color: var(--white);
+    transform: translateY(50%);
+    flex-grow: 1;
 }
 
 .section_2{
@@ -106,4 +135,52 @@ h2{
 
 .container {
     margin: 0 15px;
+}
+
+.footer {
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: var(--grey-color);
+}
+
+.footer_nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.logo_adalab {
+    width: 115px;
+    margin: 30px 0 45px 0;
+}
+
+a {
+    color: var(--dark-grey-color);
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 2rem;
 }
