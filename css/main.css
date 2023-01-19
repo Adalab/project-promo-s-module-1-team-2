@@ -118,14 +118,23 @@ h2{
 .article .h2 {
     color: var(--blue-green-color);
     text-align: center;
-    font-weight: bold;
+    
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+} 
+.section_3 .p { 
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--dark-grey-color);
+    padding-bottom: 30px;
 }
-
 .section_3 {
     background-color: var(--grey-color);
     display: flex;
     flex-direction: column;
     width: 100%;
+    padding-bottom: 15px;
+    padding-top: 30px;
 }
 
 .article {
