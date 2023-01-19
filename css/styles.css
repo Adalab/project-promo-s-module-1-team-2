@@ -1,12 +1,54 @@
 :root {
     --blue-green-color: #099d8d;
     --grey-color: #b8b8b9;
+    --aqua: #14d9c4;
+    --white: white;
 }
 
 html {
     font-size: 16px;
     max-width: 320px;
     box-sizing: border-box;
+}
+
+.header__base {
+    width: 100vw;
+    height: 60px;
+    padding: 15px 0;
+    opacity: 0.95;
+    background-color: var(--blue-green-color);
+    text-align: center;
+}
+
+.team_name {
+    width: 160px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 1.88;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.rectangle {
+    width: 100vw;
+    height: 45px;
+    padding: 8px 16px 7px 16px;
+    opacity: 0.9;
+    background-color: var(--aqua);
+}
+
+.nav {
+display: flex;
+justify-content: space-around;
+}
+
+.link_item {
+    height: 30px;
+    font-size: 15px;
+    line-height: 2;
+    text-transform: uppercase;
+    color: var(--white);
+    text-decoration: none;  
 }
 
 .section_2{
