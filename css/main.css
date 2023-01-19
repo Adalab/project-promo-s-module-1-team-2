@@ -5,11 +5,10 @@
     --white: white;
 }
 
-html {
-    font-size: 16px;
-    max-width: 320px;
-    box-sizing: border-box;
-}
+/* Font families 
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+*/
 
 .header__base {
     width: 100vw;
@@ -27,6 +26,7 @@ html {
     line-height: 1.88;
     text-transform: uppercase;
     color: var(--white);
+    font-family: 'Rubik', sans-serif;
 }
 
 .rectangle {
@@ -38,8 +38,8 @@ html {
 }
 
 .nav {
-display: flex;
-justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
 }
 
 .link_item {
@@ -62,14 +62,17 @@ justify-content: space-around;
     margin: 1.875rem 0.938rem;
     background-color: pink;
 }
+
 .p, .h2{
     text-align: center;
     font-family: "Rubik";
 }
+
 .h2{
     font-size: 1.5rem;
     color: aqua;
 }
+
 .article .h2 {
     color: var(--blue-green-color);
     text-align: center;
@@ -81,11 +84,13 @@ justify-content: space-around;
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 1.0rem;
-
 }
 
 .article {
     line-height: 1.5;
     text-align: center;
+}
+
+.container {
+    margin: 0 15px;
 }
