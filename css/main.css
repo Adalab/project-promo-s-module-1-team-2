@@ -6,6 +6,7 @@
     --dark-grey-color: #54585a;
     --black-color: #000000;
     --background-grey-color: #f1f1f1f1;
+    /* --text-style-14: bold 24px 'Rubik', sans-serif; */
 }
 
 /* Font families 
@@ -15,6 +16,8 @@
 
 .team_name {
     font-size: 16px;
+    font-family: 'Rubik',
+        sans-serif;
     line-height: 1.88;
     text-transform: uppercase;
     color: var(--white);
@@ -24,8 +27,8 @@
     text-align: center;
     width: 100vw;
     height: 60px;
-    font-family: 'Rubik',
-        sans-serif;
+    font: var(--text-style-14);
+    
 }
 
 .nav_header {
@@ -38,7 +41,7 @@
 
 .nav_list {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .link_item {
@@ -103,14 +106,14 @@
     text-align: center;
     font-family: "Rubik";
 }
-/* Bea: desde aquí podría borrarse porque lo tengo puesto arriba, pero si lo toco modifico todo lo de Mónica */
-.p{
-    font-size: 16px; 
+
+.rectangle {
+    width: 30px;
+    height: 30px;
+    margin: 488.2px 144.8px 564.8px 145.2px;
+    transform: rotate(45deg);
+    background-color: var(--white);
 }
-h2{
-    font-size: 24px;
-}
-/* Hasta aquí */
 
 .article .h2 {
     color: var(--blue-green-color);
@@ -119,6 +122,7 @@ h2{
     font-family: 'Rubik', sans-serif;
     font-size: 22px;
 } 
+
 .section_3 .p { 
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
@@ -126,7 +130,8 @@ h2{
     padding-bottom: 30px;
 }
 .section_3 {
-    background-color: var(--grey-color);
+    background-color: rgba(184, 184, 185, 0.2);
+    
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -183,10 +188,13 @@ h2{
     margin: 30px 0 45px 0;
 }
 
-a {
+.link_footer {
     color: var(--dark-grey-color);
     font-size: 14px;
     text-decoration: none;
-    cursor: pointer;
+    
     line-height: 2rem;
+}
+a:hover {
+    cursor: pointer;
 }
