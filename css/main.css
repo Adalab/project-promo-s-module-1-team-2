@@ -182,6 +182,13 @@
     color: var(--blue-green-color);
     font-size: 16px;
 }
+.dot{
+    color: var(--blue-green-color);
+    font-size: 16px;
+    position: relative;
+    top: -9px;
+
+}
 .footer {
     background-color: var(--white);
     display: flex;
