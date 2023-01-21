@@ -1,3 +1,19 @@
 @media (min-width: 768px) {
-    
+    .section_3 .p {
+        font: var(--OpenSans_regular_16);
+        color: var(--dark-grey-color);
+        padding: 20px;
+    }
+
+    .section_3 .article {
+        line-height: 1.5;
+        text-align: center;
+        width: 50%;
+    }
+
+    .section_3 .container {
+        margin: 0 15px;
+        display: flex;
+        flex-direction: row;
+    }
 }
