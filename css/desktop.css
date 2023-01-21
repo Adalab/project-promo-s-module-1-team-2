@@ -1,3 +1,7 @@
 @media (min-width: 1200px) {
-    
+    .section_3 .container {
+            margin: 45px 128px;
+            display: flex;
+            flex-direction: row;
+        }
 }
