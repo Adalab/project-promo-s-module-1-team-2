@@ -119,9 +119,13 @@
 .rectangle {
     width: 30px;
     height: 30px;
-    margin: 488.2px 144.8px 564.8px 145.2px;
+    /* margin: 488.2px 144.8px 564.8px 145.2px; */
     transform: rotate(45deg);
-    background-color: var(--white);
+    background-color: red;
+    /* background-color: var(--white); */
+    position: relative;
+    margin:auto;
+    top:45px;  
 }
 
 .article .h2 {
