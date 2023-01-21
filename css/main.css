@@ -156,7 +156,8 @@
 .section_4 .p{
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
-    color: var(--gunmetal)
+    color: var(--gunmetal);
+    padding-bottom: 10px;
 }
 .name_member{
     font-size: 20px;
@@ -187,7 +188,6 @@
     font-size: 16px;
     position: relative;
     top: -9px;
-
 }
 .footer {
     background-color: var(--white);
