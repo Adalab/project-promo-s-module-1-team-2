@@ -13,45 +13,39 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Rubik', sans-serif;
 */
-
-.team_name {
-    font-size: 16px;
-    font-family: 'Rubik',
-        sans-serif;
-    line-height: 1.88;
+.header {
+    background-color:var(--blue-green-color);
+    width: 100%;
+    position: fixed;
+    color: #fff;
+    font-family: "Rubik", sans-serif;
     text-transform: uppercase;
-    color: var(--white);
-    padding: 15px 0;
-    opacity: 0.95;
-    background-color: var(--blue-green-color);
-    text-align: center;
-    width: 100vw;
-    height: 60px;
-    font: var(--text-style-14);
-    
-}
+    z-index: 1;
 
-.nav_header {
-    width: 100vw;
-    height: 45px;
-    padding: 8px 0 7px 0;
-    opacity: 0.9;
-    background-color: var(--aqua);
+}
+.team_name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    font-size: 16px;
 }
 
 .nav_list {
+    height: 45px;
+    background-color:var(--aqua);
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
 .link_item {
-    font-size: 15px;
-    line-height: 2;
-    text-transform: uppercase;
-    color: var(--white);
+    text-align: center;
     text-decoration: none;
-    font-family: 'Rubik',
-            sans-serif;
+    font-size: 15px;
+    color: #fff;
+    padding: 15px;
 }
 
 .section_1 {
