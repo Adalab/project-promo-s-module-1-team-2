@@ -81,11 +81,10 @@
 }
 
 .section_2{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     text-align: center;
-    padding: 30px 15px;
+    padding: 30px 0;
+    position: relative;
+    top: 30px;
 }
 .section_2 .p{
     color: var(--gunmetal) ;
@@ -100,19 +99,15 @@
     line-height: 48px;
     font-family: 'Rubik', sans-serif;
     line-height: 24px;
-    height: 45px;
 }
-.p, .h2{
-    text-align: center;
-    font-family: "Rubik";
-}
-
 .rectangle {
     width: 30px;
     height: 30px;
-    margin: 488.2px 144.8px 564.8px 145.2px;
     transform: rotate(45deg);
-    background-color: var(--white);
+    background-color: red;
+    position: relative;
+    top: 15px;
+    left: 47%;
 }
 
 .article .h2 {
