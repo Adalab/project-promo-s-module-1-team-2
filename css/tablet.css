@@ -1,18 +1,28 @@
 @media (min-width: 768px) {
-    .header
-    .container_header {
-        display: flex;
-        justify-content: space-between;
-        padding: 0 45px
-    }
+.header {
+    background-color: var(--blue-green-color);
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 45px;
 
-    .team_name {
-        justify-content: flex-start;
-    }
+}
 
-    .nav_list {
-        height: 60px;
-        background-color: var(--blue-green-color);
-        padding: 0;
-    }
+.team_name {
+
+    justify-content: flex-start;
+    font-size: 1rem;
+}
+
+.nav_container {
+    background-color: var(--blue-green-color);
+    padding: 0;
+
+}
+
+.nav_list {
+    font-size: 0.938rem;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
 }
