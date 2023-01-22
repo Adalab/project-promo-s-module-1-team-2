@@ -23,44 +23,54 @@
     font-family: 'Rubik', sans-serif;
 */
 
-.team_name {
-    font-size: 16px;
-    font-family: 'Rubik',
-        sans-serif;
-    line-height: 1.88;
-    text-transform: uppercase;
-    color: var(--white);
-    padding: 15px 0;
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;  
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
     opacity: 0.95;
-    background-color: var(--blue-green-color);
-    text-align: center;
-    width: 100vw;
-    height: 60px;
-    font: var(--text-style-14);
+    color: var(--white);
+    text-transform: uppercase;
     
+
+}
+.team_name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: var(--blue-green-color);
+    width: 100%;
+    font-size: 1rem;
+    font-family: 'Rubik', sans-serif;
 }
 
-.nav_header {
-    width: 100vw;
+
+.nav_container {
     height: 45px;
-    padding: 8px 0 7px 0;
-    opacity: 0.9;
     background-color: var(--aqua);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0.5rem 1.063rem 0.438rem 1rem;
+    display: flex;
 }
-
 .nav_list {
     display: flex;
+    width: 100%;
+    list-style: none;
     justify-content: space-between;
+    
 }
-
 .link_item {
-    font-size: 15px;
-    line-height: 2;
-    text-transform: uppercase;
-    color: var(--white);
     text-decoration: none;
-    font-family: 'Rubik',
-            sans-serif;
+    color: var(--white);
+    font-size: 0.938rem;
+    font-family: 'Rubik', sans-serif;
 }
 
 .section_1 {
