@@ -1,3 +1,8 @@
 @media (min-width: 1200px) {
-    
+.photo_member {
+
+        object-fit: cover;
+        width: 17.375rem;
+        height: 17.375rem;
+    }
 }
