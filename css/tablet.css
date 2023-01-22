@@ -9,17 +9,15 @@
 .team_name {
 
     justify-content: flex-start;
-    font-size: 1rem;
     }
 
 .nav_container {
     background-color: var(--blue-green-color);
     padding: 0;
-
     }
 
 .nav_list {
-    font-size: 0.938rem;
+    
     justify-content: flex-end;
     gap: 15px;
     }

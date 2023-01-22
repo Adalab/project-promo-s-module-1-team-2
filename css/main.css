@@ -16,6 +16,7 @@
     --Rubik_medium_15: 500 15px 'Rubik', sans-serif;
     --Rubik_medium_22: 500 22px 'Rubik', sans-serif;
     --Rubik_medium_24: 500 24px 'Rubik', sans-serif;
+    --Rubik_medium_16: 500 16px 'Rubik', sans-serif;
 }
 
 /* Font families 
@@ -36,17 +37,17 @@
     color: var(--white);
     text-transform: uppercase;
     
+    
 
 }
 .team_name {
+    font: var(--Rubik_medium_16);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 60px;
     background-color: var(--blue-green-color);
     width: 100%;
-    font-size: 1rem;
-    font-family: 'Rubik', sans-serif;
 }
 
 
@@ -70,7 +71,7 @@
     text-decoration: none;
     color: var(--white);
     font-size: 0.938rem;
-    font-family: 'Rubik', sans-serif;
+    font: var(--Rubik_medium_15);
 }
 
 .section_1 {
