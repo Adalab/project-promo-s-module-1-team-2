@@ -96,18 +96,13 @@
 }
   
   .section_1 .container {
-  // Bea: es necesario poner el height?
-    height: 100%;
     display: flex;
     align-items: flex-end;
 }
   
-  .section_1 .h2 {
-     // Bea: es necesario poner el width?
-    width: 100%;
+  .section_1 .title_section_1 {
     // Bea: usar variables para font-family
-    font-family: "Open Sans", sans-serif;
-    font-weight: 600;
+    font: var(--OpenSans_semibold_14);
     font-size: 18px;
     padding: 14px;
     background-color: var(--white);
@@ -251,12 +246,12 @@
 }
   
 .footer_list {
+    font: var(--OpenSans_semibold_14);
+    color: var(--dark-grey-color);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    // Bea: la letra es semibold
-    font-size: 14px;
 }
   
 .logo_adalab {
@@ -312,12 +307,7 @@ a:hover {
         text-align: left;
         line-height: 25px;
       }
-    // Bea: es necesario esto??
-      .section_1 .container {
-        width: 100vw;
-        margin: 0 45px;
-      }
-    
+
       .section_2 {
         position: static;
         padding: 0;
@@ -385,7 +375,6 @@ a:hover {
     }
    
     .footer .container {
-      // Bea: es necesario el width?
       width: 100vw;
       display: grid;
       grid-template-columns: 50% 50%;
