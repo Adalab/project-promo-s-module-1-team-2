@@ -15,6 +15,7 @@
     --dark-grey-color: #54585a;
     --black-color: #000000;
     --background-grey-color: #f1f1f1f1;
+    --black-8: rgba(0,0,0,0.08);
     --FontAwesome5ProSolid_regular_16: 16px "FontAwesome5ProSolid", sans-serif;
     --FontAwesome5Brands_regular_16: 16px "FontAwesome5Brands", sans-serif;
     --OpenSans_regular_20: 400 20px "Open Sans", sans-serif;
@@ -190,15 +191,20 @@
   .photo_member {
     width: 180px;
     height: 180px;
-  }
-  .container_photo {
     margin-top: 30px;
     margin-bottom: 15px;
+    box-sizing: content-box;
+    border: solid 5px var(--black-8);
+    border-radius: 4px;
   }
+
   .icon_list_member {
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
+    // no sé di debería darle una medida fija¿?
+    // width: 124px;
+    // height: 30px;
     margin: 15px 83px;
   }
   .fa-brands,
@@ -209,8 +215,6 @@
   .dot {
     color: var(--blue-green-color);
     font-size: 16px;
-    position: relative;
-    top: -9px;
   }
   .footer {
     background-color: var(--white);
