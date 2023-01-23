@@ -1,3 +1,6 @@
 @media (min-width: 768px) {
-    
+    .footer .container {
+        width: 100vw;
+        margin: 0 45px;
+    }
 }
