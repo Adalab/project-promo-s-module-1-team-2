@@ -351,7 +351,7 @@ a:hover {
       // Bea: borré este container porque pensé que no era necesario, lo es?
         margin: 0;
     }
-    .article {
+    .section_4 .article {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -364,7 +364,7 @@ a:hover {
         text-align: left;
         margin: 45px 0 15px 30px;
     }
-    .article:nth-child(2n+1) {
+    .section_4 .article:nth-child(2n+1) {
         flex-direction: row-reverse;
     }
     .info_member_r {
@@ -424,7 +424,7 @@ a:hover {
         margin: 0;
     }
 
-    .article {
+    .section_4 .article {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -439,7 +439,7 @@ a:hover {
         margin: 45px 0 15px 30px;
     }
 
-    .article:nth-child(2n+1) {
+    .section_4 .article:nth-child(2n+1) {
         flex-direction: row-reverse;
     }
     
