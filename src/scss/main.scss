@@ -39,6 +39,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    // Bea: es necesario poner el width?
     width: 100%;
     position: fixed;
     z-index: 1;
@@ -54,6 +55,7 @@
     align-items: center;
     height: 60px;
     background-color: var(--blue-green-color);
+    // Bea: es necesario poner el width?
     width: 100%;
   }
   
@@ -62,12 +64,14 @@
     background-color: var(--aqua);
     justify-content: center;
     align-items: center;
+    // Bea: es necesario poner el width?
     width: 100%;
     padding: 0.5rem 1.063rem 0.438rem 1rem;
     display: flex;
   }
   .nav_list {
     display: flex;
+     // Bea: es necesario poner el width?
     width: 100%;
     list-style: none;
     justify-content: space-between;
@@ -79,6 +83,7 @@
     font: var(--Rubik_medium_15);
   }
   .container {
+  // Bea: usamos rem o px?
     margin: 0 15px;
   }
   .section_1 {
@@ -92,13 +97,16 @@
   }
   
   .section_1 .container {
+  // Bea: es necesario poner el height?
     height: 100%;
     display: flex;
     align-items: flex-end;
   }
   
   .section_1 .h2 {
+     // Bea: es necesario poner el width?
     width: 100%;
+    // Bea: usar variables para font-family
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
     font-size: 18px;
@@ -116,16 +124,13 @@
   }
   .section_2 .p {
     color: var(--gunmetal);
-    font-size: 16px;
-    font-family: "Open Sans", sans-serif;
+    font-family: (--OpenSans_regular_16);
     line-height: 24px;
     margin-top: 15px;
   }
   .section_2 .h2 {
-    font-size: 24px;
+    font-family: var(--Rubik_medium_24);
     color: var(--aqua);
-    line-height: 48px;
-    font-family: "Rubik", sans-serif;
     line-height: 24px;
     padding: 10px 0;
   }
@@ -140,13 +145,13 @@
   }
   
   .article .h2 {
-    font: var(--Rubik_medium_22);
+    font-family: var(--Rubik_medium_22);
     color: var(--blue-green-color);
     text-align: center;
   }
   
   .section_3 .p {
-    font: var(--OpenSans_regular_16);
+    font-family: var(--OpenSans_regular_16);
     color: var(--dark-grey-color);
     padding-bottom: 30px;
   }
@@ -171,20 +176,17 @@
     padding: 30px 0;
   }
   .section_4 .h2 {
-    font-size: 24px;
-    font-family: "Rubik", sans-serif;
+    font-family: var(--Rubik_medium_24);
     color: var(--blue-green-color);
     padding: 10px 0;
   }
   .section_4 .p {
-    font-size: 16px;
-    font-family: "Open Sans", sans-serif;
+    font-family: var(--OpenSans_regular_16);
     color: var(--gunmetal);
     padding-bottom: 10px;
   }
   .name_member {
-    font-size: 20px;
-    font-family: "Open Sans", sans-serif;
+    font-family: var(--OpenSans_regular_20);
     color: #000000;
     line-height: 45px;
   }
@@ -202,7 +204,7 @@
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
-    // no sé di debería darle una medida fija¿?
+    // Bea: no sé di debería darle una medida fija¿?
     // width: 124px;
     // height: 30px;
     margin: 15px 83px;
@@ -220,6 +222,7 @@
     background-color: var(--white);
     display: flex;
     justify-content: center;
+    // Bea: usar variables para font-family, todas son 14px
     font-family: "Open Sans", sans-serif;
   }
   
@@ -248,6 +251,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    // Bea: la letra es semibold
     font-size: 14px;
   }
   
@@ -301,7 +305,7 @@
         text-align: left;
         line-height: 25px;
       }
-    
+    // Bea: es necesario esto??
       .section_1 .container {
         width: 100vw;
         margin: 0 45px;
@@ -320,12 +324,14 @@
     }
   
     .section_3 .p {
+      // Bea: es la misma letra que en movil, no?
       font: var(--OpenSans_regular_16);
       color: var(--dark-grey-color);
       padding-top: 15px;
     }
   
     .section_3 .article {
+      // Bea: es lo mismo que en formato movil, no?
       line-height: 1.5;
       text-align: center;
       width: 50%;
@@ -333,16 +339,19 @@
     }
   
     .section_3 .container {
+    // Bea: el margin horizontal es necesario aquí si ya está declarado para todo el doc?
       margin: 45px 45px;
       display: flex;
       flex-direction: row;
     }
     .photo_member {
+      // Bea: es necesario el object-fit?
         object-fit: cover;
         width: 12.938rem;
         height: 12.938rem;
     }
     .container_photo {
+      // Bea: borré este container porque pensé que no era necesario, lo es?
         margin: 0;
     }
     .article {
@@ -369,6 +378,7 @@
     }
    
     .footer .container {
+      // Bea: es necesario el width?
       width: 100vw;
       display: grid;
       grid-template-columns: 50% 50%;
@@ -398,39 +408,41 @@
     }
   }
   @media (min-width: 1200px) {
-    .container {
+  .container {
         margin: 0 300px;
     }
-    .section_3 .container {
-            margin: 45px 128px;
-            display: flex;
-            flex-direction: row;
-    }
-.photo_member {
-    object-fit: cover;
-    width: 12.938rem;
-    height: 12.938rem;
+
+  // Bea: borré este container porque pensé que no era necesario, lo es?
+  .section_3 .container {
+    margin: 45px 128px;
+    display: flex;
+    flex-direction: row;
+  }
+  .photo_member {
+  object-fit: cover;
+  width: 12.938rem;
+  height: 12.938rem;
 }
-.container_photo {
+  .container_photo {
     margin: 0;
 }
-.article {
+  .article {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
-.info_member {
+  .info_member {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
     margin: 45px 0 15px 30px;
 }
-.article:nth-child(2n+1) {
+  .article:nth-child(2n+1) {
     flex-direction: row-reverse;
 }
-.info_member_r {
+  .info_member_r {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
