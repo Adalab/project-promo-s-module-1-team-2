@@ -342,21 +342,17 @@ a:hover {
       flex-direction: row;
     }
     .photo_member {
-      // Bea: es necesario el object-fit?
-        object-fit: cover;
         width: 12.938rem;
         height: 12.938rem;
     }
-    .container_photo {
-      // Bea: borré este container porque pensé que no era necesario, lo es?
-        margin: 0;
-    }
+    
     .section_4 .article {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
     }
+
     .info_member {
         display: flex;
         flex-direction: column;
@@ -366,13 +362,16 @@ a:hover {
     }
     .section_4 .article:nth-child(2n+1) {
         flex-direction: row-reverse;
+        
     }
-    .info_member_r {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        text-align: end;
-    }
+
+
+    // .info_member_r {
+    //     display: flex;
+    //     flex-direction: column;
+    //     align-items: flex-end;
+    //     text-align: end;
+    // }
    
     .footer .container {
       width: 100vw;
