@@ -139,13 +139,13 @@
     left: 47%;
 }
   
-  .article .h2 {
+  .article .title_2 {
     font-family: var(--Rubik_medium_22);
     color: var(--blue-green-color);
     text-align: center;
 }
   
-  .section_3 .p {
+  .section_3 .description {
     font-family: var(--OpenSans_regular_16);
     color: var(--dark-grey-color);
     padding-bottom: 30px;
@@ -320,7 +320,7 @@ a:hover {
         margin-bottom: 30px;
       }
   
-    .section_3 .p {
+    .section_3 .description {
       // Bea: es la misma letra que en movil, no?
       font: var(--OpenSans_regular_16);
       color: var(--dark-grey-color);
