@@ -22,6 +22,22 @@
         gap: 15px;
         }
 
+    .section_1 .h2 {
+        width: 450px;
+        position: absolute;
+        left: 45px;
+        transform: none;
+        opacity: 0.8;
+        padding: 15px 30px;
+        text-align: left;
+        line-height: 25px;
+        }
+    
+    .section_1 .container {
+        width: 100vw;
+        margin: 0 45px;
+        }
+
     .section_2 {
             position: static;
             padding: 0;
