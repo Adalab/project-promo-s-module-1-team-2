@@ -11,12 +11,6 @@
         margin: 0 4.5rem;
     }
 
-    .team_name{
-
-        // display: flex;
-        // justify-content: flex-start;
-    }
-
     .nav_container {
         background-color: $blue-green-color;
         padding: 0;
@@ -88,11 +82,25 @@
         text-align: left;
         padding: 15px 45px 0 45px;
     }
-    .info_member:nth-child(2n){
-        text-align: right;
-    }
+    
     .section_4 .article:nth-child(2n+1) {
         flex-direction: row-reverse;
+    } 
+   
+    .section_4 .article:nth-child(2n+1) .name_member {
+        width: 100%;
+        text-align: right;
+    }
+
+    .section_4 .article:nth-child(2n+1) .description {
+        width: 100%;
+        text-align: right;
+    }
+
+    .section_4 .article:nth-child(2n+1) .icon_list_member {
+        width: 100;
+        display: flex;
+        justify-content: right;
     }
 
     .icon_list_member {
@@ -103,6 +111,16 @@
         height: 30px;
         align-items: flex-end;
     }
+
+    .info_member {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        padding: 15px 45px 0 45px;
+    }
+    
+
 
 
     // .info_member p:nth-of-type( {
