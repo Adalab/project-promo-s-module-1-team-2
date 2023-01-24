@@ -81,6 +81,7 @@
         align-items: flex-start;
         text-align: left;
         padding: 15px 45px 0 45px;
+        max-width: 60rem;
     }
     
     .section_4 .article:nth-child(2n+1) {
@@ -97,20 +98,21 @@
         text-align: right;
     }
 
+    .icon_list_member {
+    list-style-type: none;
+    justify-content: space-evenly;
+    margin: 15px 0;
+    width: 124px;
+    height: 30px;
+    // align-items: flex-end;
+    }
     .section_4 .article:nth-child(2n+1) .icon_list_member {
-        width: 100;
+        width: 100%;
         display: flex;
         justify-content: right;
     }
 
-    .icon_list_member {
-        list-style-type: none;
-        justify-content: space-evenly;
-        margin: 15px 0;
-        width: 124px;
-        height: 30px;
-        align-items: flex-end;
-    }
+
 
     .info_member {
         display: flex;
