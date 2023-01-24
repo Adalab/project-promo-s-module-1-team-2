@@ -1,0 +1,30 @@
+.section_2 {
+    text-align: center;
+    padding: 30px 0;
+    position: relative;
+    top: 30px;
+}
+
+.section_2 .description {
+    color: $dark-grey-color;
+    font: $OpenSans_regular_16;
+    line-height: 24px;
+    margin-top: 15px;
+}
+
+.section_2 .title_2 {
+    font: $Rubik_medium_24;
+    color: $aqua;
+    line-height: 24px;
+    padding: 10px 0;
+}
+
+.rectangle {
+    width: 30px;
+    height: 30px;
+    transform: rotate(45deg);
+    background-color: $white;
+    position: relative;
+    top: 15px;
+    left: 47%;
+}

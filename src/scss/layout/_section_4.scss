@@ -1,0 +1,53 @@
+.section_4 {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.section_4 .title_2 {
+    font: $Rubik_medium_24;
+    color: $blue-green-color;
+    padding: 10px 0;
+}
+
+.section_4 .description {
+    font: $OpenSans_regular_16;
+    color: $dark-grey-color;
+    padding-bottom: 10px;
+}
+
+.name_member {
+    font:$openSans_regular_20;
+    color: #000000;
+    line-height: 45px;
+}
+
+.photo_member {
+    width: 180px;
+    height: 180px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    box-sizing: content-box;
+    border: solid 5px $black-8;
+    border-radius: 4px;
+}
+
+.icon_list_member {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    // Bea: no sé di debería darle una medida fija¿?
+    // width: 124px;
+    // height: 30px;
+    margin: 15px 83px;
+}
+
+.fa-brands,
+.fa-solid {
+    color: $blue-green-color;
+    font-size: 16px;
+}
+
+.dot {
+    color: $blue-green-color;
+    font-size: 16px;
+}

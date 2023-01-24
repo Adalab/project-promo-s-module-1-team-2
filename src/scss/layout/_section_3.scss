@@ -1,0 +1,27 @@
+  .article .title_2 {
+      font: $Rubik_medium_22;
+      color: $blue-green-color;
+      text-align: center;
+  }
+
+  .section_3 .description {
+      font: $OpenSans_regular_16;
+      color: $dark-grey-color;
+      padding-bottom: 30px;
+  }
+
+  .section_3 {
+      background-color: rgba(184, 184, 185, 0.2);
+      padding-bottom: 15px;
+      padding-top: 30px;
+  }
+
+  .section_3 .article {
+      line-height: 1.5;
+      text-align: center;
+  }
+
+  .section_3 .container {
+      display: flex;
+      flex-direction: column;
+  }

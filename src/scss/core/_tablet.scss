@@ -1,0 +1,145 @@
+@media (min-width: 768px) {
+    .header {
+        background-color: $blue-green-color;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0 45px;
+    }
+
+    .container {
+        margin: 0 45px;
+    }
+
+    .team_name {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .nav_container {
+        background-color: $blue-green-color;
+        padding: 0;
+    }
+
+    .nav_list {
+        justify-content: flex-end;
+        gap: 15px;
+    }
+
+    .section_1 .h2 {
+        width: 450px;
+        position: absolute;
+        left: 45px;
+        transform: none;
+        opacity: 0.8;
+        padding: 15px 30px;
+        text-align: left;
+        line-height: 25px;
+    }
+
+    .section_2 {
+        position: static;
+        padding: 0;
+    }
+
+    .section_2 .title_2 {
+        color: $blue-green-color;
+        margin-top: 45px;
+    }
+
+    .section_2 .description {
+        margin-bottom: 30px;
+    }
+
+    .section_3 .description {
+        // Bea: es la misma letra que en movil, no?
+        font: $OpenSans_regular_16;
+        color: $dark-grey-color;
+        padding-top: 15px;
+    }
+
+    .section_3 .article {
+        // Bea: es lo mismo que en formato movil, no?
+        line-height: 1.5;
+        text-align: center;
+        width: 50%;
+        padding: 10px;
+    }
+
+    .section_3 .container {
+        // Bea: el margin horizontal es necesario aquí si ya está declarado para todo el doc?
+        margin: 45px 45px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .photo_member {
+        width: 12.938rem;
+        height: 12.938rem;
+    }
+
+    .section_4 .article {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info_member {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        padding: 15px 45px 0 45px;
+    }
+
+    .section_4 .article:nth-child(2n+1) {
+        flex-direction: row-reverse;
+    }
+
+    .icon_list_member {
+        list-style-type: none;
+        justify-content: space-evenly;
+        margin: 15px 0;
+        width: 124px;
+        height: 30px;
+        align-items: flex-end;
+    }
+
+
+    // .info_member p:nth-of-type( {
+    //      display: flex;
+    //      flex-direction: column;
+    //      align-items: flex-end;
+    //      text-align: end;
+    //  }
+
+    .footer .container {
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        margin: 30px 45px 60px 45px;
+    }
+
+    .copyright {
+        margin: 0;
+        place-self: center start;
+    }
+
+    .logo_adalab {
+        margin: 0;
+        margin-top: 15px;
+    }
+
+    .footer_nav {
+        margin: 0;
+        grid-area: 1 / 2 / span 2;
+        justify-self: end;
+    }
+
+    .footer_list {
+        align-items: end;
+        row-gap: 8px;
+    }
+}

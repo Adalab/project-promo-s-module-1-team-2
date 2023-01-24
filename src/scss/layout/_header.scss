@@ -1,5 +1,49 @@
-.page__header {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+.header {
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // justify-content: center;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    opacity: 0.95;
+    color: $white;
+    text-transform: uppercase;
+}
+
+.team_name {
+    font: $Rubik_medium_16;
+    padding: 20px 0;
+    text-align: center;
+    height: 60px;
+    background-color: $blue-green-color;
+    // Bea: es necesario poner el width?
+    width: 100%;
+}
+
+.nav_container {
+    height: 45px;
+    background-color: $aqua;
+    justify-content: center;
+    align-items: center;
+    // Bea: es necesario poner el width?
+    width: 100%;
+    padding: 0.5rem 1.063rem 0.438rem 1rem;
+    display: flex;
+}
+
+.nav_list {
+    display: flex;
+    // Bea: es necesario poner el width?
+    width: 100%;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.link_item {
+    text-decoration: none;
+    color: $white;
+    font-size: 0.938rem;
+    font: $Rubik_medium_15;
 }

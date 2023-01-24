@@ -1,0 +1,22 @@
+.section_1 {
+    height: 420px;
+    background: url("./assets/images/beaa.png"); //center bottom no-repeat;
+   // background-color: $grey-color;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.section_1 .container {
+    display: flex;
+    align-items: flex-end;
+}
+
+.section_1 .title_section_1 {
+    font: $OpenSans_semibold_14;
+    font-size: 18px;
+    padding: 14px;
+    background-color: $white;
+    transform: translateY(50%);
+}
