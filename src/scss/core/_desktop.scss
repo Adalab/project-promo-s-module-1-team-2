@@ -6,6 +6,10 @@
         padding: 0 138px 0 142px;
       }
 
+        .section_1 .title_2 {
+            left: 13.8rem;
+        }
+
       .section_3 .container {
           margin: 45px 128px;
           display: flex;
@@ -47,7 +51,12 @@
           align-items: flex-end;
           text-align: end;
       }
+      
       a:hover {
         cursor: pointer;
     }
+
+        .footer .container {
+            margin: 3rem 13.8rem 4.6rem 13.8rem;
+        }
   }
