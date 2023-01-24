@@ -27,14 +27,14 @@
     }
 
     .section_1 .h2 {
-        width: 450px;
+        width: 45rem;
         position: absolute;
-        left: 45px;
+        left: 4.5rem;
         transform: none;
         opacity: 0.8;
-        padding: 15px 30px;
+        padding: 1.5rem 3rem;
         text-align: left;
-        line-height: 25px;
+        line-height: 2rem;
     }
 
     .section_2 {
@@ -121,7 +121,7 @@
 
     .logo_adalab {
         margin: 0;
-        margin-top: 15px;
+        margin-top: 1.5rem;
     }
 
     .footer_nav {
@@ -132,6 +132,6 @@
 
     .footer_list {
         align-items: end;
-        row-gap: 8px;
+        row-gap: 0.8rem;
     }
 }
