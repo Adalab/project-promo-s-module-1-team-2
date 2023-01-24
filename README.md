@@ -10,7 +10,7 @@ Es nuestra primera experiencia de trabajo en equipo relacionada con programació
 
 ## Autores ✒️
 - [Laura Caurín](https://github.com/Laucaurin) - Header y section 4
-- [Enrica Garcia](https://github.com/ErriGarcia) - Section_1 y Footer 
+- [Enrica Garcia](https://github.com/ErriGarcia) - Section 1 y Footer 
 - [Bea Figueroa](https://github.com/Adalab/project-promo-s-module-1-team-2/commits?author=beafig) - Section 2 y Section 4
 - [Mónica Saborido](https://github.com/sabfiamo) - Section 3 y Section 4
 
