@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     font: $openSans_regular_16;
+    border-top: solid 0.1rem $grey-color;
 }
 
 .footer .container {
@@ -46,6 +47,3 @@
     line-height: 2rem;
 }
 
-a:hover {
-    cursor: pointer;
-}

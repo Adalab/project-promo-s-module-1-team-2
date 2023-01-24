@@ -34,11 +34,8 @@
 .icon_list_member {
     list-style-type: none;
     display: flex;
-    justify-content: space-evenly;
-    // Bea: no sé di debería darle una medida fija¿?
-    // width: 124px;
-    // height: 30px;
-    margin: 1.5rem 8.3rem;
+    justify-content: center;
+    gap: 0.3rem;
 }
 
 .fa-brands,

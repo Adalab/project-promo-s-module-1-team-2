@@ -11,22 +11,26 @@
         margin: 0 4.5rem;
     }
 
-    .team_name {
-        display: flex;
-        justify-content: flex-start;
+    .team_name{
+
+        // display: flex;
+        // justify-content: flex-start;
     }
 
     .nav_container {
         background-color: $blue-green-color;
         padding: 0;
+        width: 80%;
     }
 
     .nav_list {
         justify-content: flex-end;
         gap: 15px;
     }
-
-    .section_1 .h2 {
+    // .section_1{
+    //     background-size: cover;
+    // }
+    .section_1 .title_2 {
         width: 450px;
         position: absolute;
         left: 45px;
@@ -84,7 +88,9 @@
         text-align: left;
         padding: 15px 45px 0 45px;
     }
-
+    .info_member:nth-child(2n){
+        text-align: right;
+    }
     .section_4 .article:nth-child(2n+1) {
         flex-direction: row-reverse;
     }
