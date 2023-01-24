@@ -52,23 +52,15 @@
     }
 
     .section_3 .description {
-        // Bea: es la misma letra que en movil, no?
-        font: $openSans_regular_16;
-        color: $dark-grey-color;
         padding-top: 15px;
     }
 
     .section_3 .article {
-        // Bea: es lo mismo que en formato movil, no?
-        line-height: 1.5;
-        text-align: center;
         width: 50%;
         padding: 10px;
     }
 
     .section_3 .container {
-        // Bea: el margin horizontal es necesario aquí si ya está declarado para todo el doc?
-        margin: 45px 45px;
         display: flex;
         flex-direction: row;
     }
