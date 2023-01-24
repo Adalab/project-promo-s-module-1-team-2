@@ -1,18 +1,18 @@
 .section_4 {
     text-align: center;
-    padding: 30px 0;
+    padding: 3rem 0;
 }
 
 .section_4 .title_2 {
     font: $rubik_medium_24;
     color: $blue-green-color;
-    padding: 10px 0;
+    padding: 1rem 0;
 }
 
 .section_4 .description {
     font: $openSans_regular_16;
     color: $dark-grey-color;
-    padding-bottom: 10px;
+    padding-bottom: 1rem;
 }
 
 .name_member {
@@ -22,10 +22,10 @@
 }
 
 .photo_member {
-    width: 180px;
-    height: 180px;
-    margin-top: 30px;
-    margin-bottom: 15px;
+    width: 18rem;
+    height: 18rem;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
     box-sizing: content-box;
     border: solid 5px $black-8;
     border-radius: 4px;
@@ -38,16 +38,16 @@
     // Bea: no sé di debería darle una medida fija¿?
     // width: 124px;
     // height: 30px;
-    margin: 15px 83px;
+    margin: 1.5rem 8.3rem;
 }
 
 .fa-brands,
 .fa-solid {
     color: $blue-green-color;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 .dot {
     color: $blue-green-color;
-    font-size: 16px;
+    font-size: 1.6rem;
 }

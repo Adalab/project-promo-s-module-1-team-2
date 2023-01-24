@@ -8,7 +8,7 @@
     }
 
     .container {
-        margin: 0 45px;
+        margin: 0 4.5rem;
     }
 
     .team_name {
@@ -27,14 +27,14 @@
     }
 
     .section_1 .h2 {
-        width: 45rem;
+        width: 450px;
         position: absolute;
-        left: 4.5rem;
+        left: 45px;
         transform: none;
         opacity: 0.8;
-        padding: 1.5rem 3rem;
+        padding: 15px 30px;
         text-align: left;
-        line-height: 2rem;
+        line-height: 25px;
     }
 
     .section_2 {
@@ -44,11 +44,11 @@
 
     .section_2 .title_2 {
         color: $blue-green-color;
-        margin-top: 45px;
+        margin-top: 4.5rem;
     }
 
     .section_2 .description {
-        margin-bottom: 30px;
+        margin-bottom: 3rem;
     }
 
     .section_3 .description {
@@ -121,7 +121,7 @@
 
     .logo_adalab {
         margin: 0;
-        margin-top: 1.5rem;
+        margin-top: 15px;
     }
 
     .footer_nav {
@@ -132,6 +132,6 @@
 
     .footer_list {
         align-items: end;
-        row-gap: 0.8rem;
+        row-gap: 8px;
     }
 }
