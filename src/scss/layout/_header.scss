@@ -1,42 +1,59 @@
 .header {
-    width: 100%;
-    position: fixed;
-    z-index: 2;
-    top: 0;
-    opacity: 0.95;
-    color: $white;
-    text-transform: uppercase;
-}
-
-.team_name {
-    font: $rubik_medium_16;
-    padding: 20px 0;
-    text-align: center;
-    height: 60px;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  opacity: 0.95;
+  color: $white;
+  text-transform: uppercase;
+  @media (min-width: 768px) {
     background-color: $blue-green-color;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 45px;
+  }
+  @media (min-width: 1200px) {
+    padding: 0 138px 0 142px;
+  }
+}
+.team_name {
+  font: $rubik_medium_16;
+  padding: 20px 0;
+  text-align: center;
+  height: 60px;
+  background-color: $blue-green-color;
 }
 
 .nav_container {
-    height: 45px;
-    background-color: $aqua;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding: 0.5rem 1.063rem 0.438rem 1rem;
-    display: flex;
+  height: 45px;
+  background-color: $aqua;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem 1.063rem 0.438rem 1rem;
+  display: flex;
+  @media (min-width: 768px) {
+    background-color: $blue-green-color;
+    padding: 0;
+    width: 80%;
+  }
 }
 
 .nav_list {
-    display: flex;
-    // Bea: es necesario poner el width?
-    width: 100%;
-    list-style: none;
-    justify-content: space-between;
+  display: flex;
+  width: 100%;
+  list-style: none;
+  justify-content: space-between;
+  @media (min-width: 768px) {
+    justify-content: flex-end;
+    gap: 15px;
+  }
 }
 
 .link_item {
-    text-decoration: none;
-    color: $white;
-    font-size: 0.938rem;
-    font: $rubik_medium_15;
+  text-decoration: none;
+  color: $white;
+  font-size: 0.938rem;
+  font: $rubik_medium_15;
 }

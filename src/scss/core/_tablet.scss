@@ -1,110 +1,46 @@
 @media (min-width: 768px) {
-    .header {
-        background-color: $blue-green-color;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding: 0 45px;
-    }
+  .photo_member {
+    width: 12.938rem;
+    height: 12.938rem;
+  }
 
-    .container {
-        margin: 0 4.5rem;
-    }
+  .section_4 .article {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .nav_container {
-        background-color: $blue-green-color;
-        padding: 0;
-        width: 80%;
-    }
+  .info_member {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding: 15px 45px 0 45px;
+  }
 
-    .nav_list {
-        justify-content: flex-end;
-        gap: 15px;
-    }
-    // .section_1{
-    //     background-size: cover;
-    // }
-    .section_1 .title_2 {
-        width: 450px;
-        position: absolute;
-        left: 45px;
-        transform: none;
-        opacity: 0.8;
-        padding: 15px 30px;
-        text-align: left;
-        line-height: 25px;
-    }
+  .section_4 .article:nth-child(2n + 1) {
+    flex-direction: row-reverse;
+  }
 
-    .section_2 {
-        position: static;
-        padding: 0;
-    }
+  .section_4 .article:nth-child(2n + 1) .name_member {
+    width: 100%;
+    text-align: right;
+  }
 
-    .section_2 .title_2 {
-        color: $blue-green-color;
-        margin-top: 4.5rem;
-    }
+  .section_4 .article:nth-child(2n + 1) .description {
+    width: 100%;
+    text-align: right;
+  }
 
-    .section_2 .description {
-        margin-bottom: 3rem;
-    }
-
-    .section_3 .description {
-        padding-top: 15px;
-    }
-
-    .section_3 .article {
-        width: 50%;
-        padding: 10px;
-    }
-
-    .section_3 .container {
-        display: flex;
-        flex-direction: row;
-    }
-
-    .photo_member {
-        width: 12.938rem;
-        height: 12.938rem;
-    }
-
-    .section_4 .article {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .info_member {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        text-align: left;
-        padding: 15px 45px 0 45px;
-        max-width: 60rem;
-    }
-    
-    .section_4 .article:nth-child(2n+1) {
-        flex-direction: row-reverse;
-    } 
-   
-    .section_4 .article:nth-child(2n+1) .name_member {
-        width: 100%;
-        text-align: right;
-    }
-
-    .section_4 .article:nth-child(2n+1) .description {
-        width: 100%;
-        text-align: right;
-    }
-
-    .icon_list_member {
+  .icon_list_member {
     list-style-type: none;
     justify-content: space-evenly;
     margin: 15px 0;
     width: 124px;
     height: 30px;
     // align-items: flex-end;
+<<<<<<< HEAD
     }
     .section_4 .article:nth-child(2n+1) .icon_list_member {
         width: 100%;
@@ -160,3 +96,56 @@
         row-gap: 8px;
     }
 }
+=======
+  }
+  .section_4 .article:nth-child(2n + 1) .icon_list_member {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+  }
+
+  .info_member {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding: 15px 45px 0 45px;
+  }
+
+  // .info_member p:nth-of-type( {
+  //      display: flex;
+  //      flex-direction: column;
+  //      align-items: flex-end;
+  //      text-align: end;
+  //  }
+
+  .footer .container {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    margin: 30px 45px 60px 45px;
+  }
+
+  .copyright {
+    margin: 0;
+    place-self: center start;
+  }
+
+  .logo_adalab {
+    margin: 0;
+    margin-top: 15px;
+  }
+
+  .footer_nav {
+    margin: 0;
+    grid-area: 1 / 2 / span 2;
+    justify-self: end;
+  }
+
+  .footer_list {
+    align-items: end;
+    row-gap: 8px;
+  }
+}
+>>>>>>> 4fb529e3773ec6332f459c0960229f55971e8663
