@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Las PowerTeam</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@500&display=swap"
+        rel="stylesheet" />
+
+    <script src="https://kit.fontawesome.com/6885363b9f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- <link rel="stylesheet" href="./css/reset.css" /> -->
+    <link rel="icon" href="./assets/images/favicon.png" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <!-- <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/desktop.css" /> -->
+</head>
+
+<body>
+    <!-- Start Section Lau-->
+    <include src="./partials/header.html"></include>
+
+    <main>
+        <!--Contact page-->
+        <img src="" alt="">
+        <div class="container">
+            <h1 class="title_1">CONTACTO</h1>
+            <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nunc rutrum ullamcorper mauris, vel convallis metus eleifend in.</p>
+            <p class="small_text">
+                <small>Todos lo campos marcados con <span class="title--description__small__aqua">*</span> son obligatorios.
+                </small>
+            </p>
+            <!--Name-->
+            <form class="form" action="#" method="post">
+                <label class="form--label" for="name">
+                    Nombre Completo <span class="title--description__small__aqua">*</span>
+                </label>
+                <input class="form--input" id="name" type="text" name="name" placeholder="Nombre..." required/>
+
+            <!--Email-->
+                <label class="form--label" for="email">
+                    Email <span class="title--description__small__aqua">*</span>
+                </label>
+                <input class="form--input" id="email" type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" value="nombre.apellidos@mail.com" required />
+
+            <!--Telephone-->
+                <label class="form--label" for="telephone">
+                    Teléfono
+                </label>
+                <input class="form--input" id="telephone" type="tel" name="telephone" placeholder="Ej: 123456789">
+
+            <!--Message-->
+                <label class="form--label" for="message">
+                    Mensaje <span class="title--description__small__aqua">*</span>
+                </label>
+                <textarea class="form--textarea" id="message" type="text" name="message" placeholder="¿Qué necesitas?" cols="80" rows="8" required>
+                </textarea>
+
+            <!--Submit-->
+                <input class="form--sumbit" type="submit" value="ENVIAR">
+            </form>
+        </div>
+        
+    </main>
+
+    <!-- Start Section Enrica-->
+    <include src="./partials/footer.html"></include>
+    <!-- End Section Enrica-->
+</body>
+
+</html>
