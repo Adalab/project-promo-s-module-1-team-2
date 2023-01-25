@@ -13,7 +13,6 @@
   //   text-align: right;
   // }
 
-
   // .section_4 .article:nth-child(2n + 1) .icon_list_member {
   //   width: 100%;
   //   display: flex;
@@ -34,34 +33,4 @@
   //      align-items: flex-end;
   //      text-align: end;
   //  }
-
-  .footer .container {
-    width: 100vw;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
-    margin: 30px 45px 60px 45px;
-  }
-
-  .copyright {
-    margin: 0;
-    place-self: center start;
-  }
-
-  .logo_adalab {
-    margin: 0;
-    margin-top: 15px;
-  }
-
-  .footer_nav {
-    margin: 0;
-    grid-area: 1 / 2 / span 2;
-    justify-self: end;
-  }
-
-  .footer_list {
-    align-items: end;
-    row-gap: 8px;
-  }
 }
-
