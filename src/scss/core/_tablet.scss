@@ -79,19 +79,18 @@
     text-align: right;
   }
 
-  .section_4 .article:nth-child(2n + 1) .icon_list_member {
-    width: 100;
-    display: flex;
-    justify-content: right;
-  }
-
   .icon_list_member {
     list-style-type: none;
     justify-content: space-evenly;
     margin: 15px 0;
     width: 124px;
     height: 30px;
-    align-items: flex-end;
+    // align-items: flex-end;
+  }
+  .section_4 .article:nth-child(2n + 1) .icon_list_member {
+    width: 100%;
+    display: flex;
+    justify-content: right;
   }
 
   .info_member {
