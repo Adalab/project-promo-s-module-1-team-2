@@ -7,3 +7,9 @@
     margin: 0 30rem;
   }
 }
+
+  .container_photo {
+    @media (min-width: 1200px) {
+    margin: 0;
+    }
+  }

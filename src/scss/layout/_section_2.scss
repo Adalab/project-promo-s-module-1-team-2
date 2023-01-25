@@ -37,5 +37,7 @@
   background-color: $white;
   position: relative;
   top: 1rem;
-  left: 47%;
+  //Monica: Puse margin auto pq en tamaños grandes de pantalla se descentraba
+  // left: 47%;
+  margin: auto;
 }
