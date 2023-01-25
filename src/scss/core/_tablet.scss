@@ -1,97 +1,36 @@
 @media (min-width: 768px) {
-  .photo_member {
-    width: 12.938rem;
-    height: 12.938rem;
-  }
+  // .section_4 .article:nth-child(2n + 1) {
+  //   flex-direction: row-reverse;
+  // }
 
-  .section_4 .article {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
+  // .section_4 .article:nth-child(2n + 1) .name_member {
+  //   width: 100%;
+  //   text-align: right;
+  // }
 
-  .info_member {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    text-align: left;
-    padding: 15px 45px 0 45px;
-  }
+  // .section_4 .article:nth-child(2n + 1) .description {
+  //   width: 100%;
+  //   text-align: right;
+  // }
 
-  .section_4 .article:nth-child(2n + 1) {
-    flex-direction: row-reverse;
-  }
+  // .section_4 .article:nth-child(2n + 1) .icon_list_member {
+  //   width: 100%;
+  //   display: flex;
+  //   justify-content: right;
+  // }
 
-  .section_4 .article:nth-child(2n + 1) .name_member {
-    width: 100%;
-    text-align: right;
-  }
+  // .info_member {
+  //   display: flex;
+  //   flex-direction: column;
+  //   align-items: flex-start;
+  //   text-align: left;
+  //   padding: 15px 45px 0 45px;
+  // }
 
-  .section_4 .article:nth-child(2n + 1) .description {
-    width: 100%;
-    text-align: right;
-  }
-
-  .icon_list_member {
-    list-style-type: none;
-    justify-content: space-evenly;
-    margin: 15px 0;
-    width: 124px;
-    height: 30px;
-    // align-items: flex-end;
-    }
-    .section_4 .article:nth-child(2n+1) .icon_list_member {
-        width: 100%;
-        display: flex;
-        justify-content: right;
-    }
-
-
-
-    .info_member {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        text-align: left;
-        padding: 15px 45px 0 45px;
-    }
-    
-
-
-
-    // .info_member p:nth-of-type( {
-    //      display: flex;
-    //      flex-direction: column;
-    //      align-items: flex-end;
-    //      text-align: end;
-    //  }
-
-    .footer .container {
-        width: 100vw;
-        display: grid;
-        grid-template-columns: 50% 50%;
-        margin: 30px 45px 60px 45px;
-    }
-
-    .copyright {
-        margin: 0;
-        place-self: center start;
-    }
-
-    .logo_adalab {
-        margin: 0;
-        margin-top: 15px;
-    }
-
-    .footer_nav {
-        margin: 0;
-        grid-area: 1 / 2 / span 2;
-        justify-self: end;
-    }
-
-    .footer_list {
-        align-items: end;
-        row-gap: 8px;
-    }
+  // .info_member p:nth-of-type( {
+  //      display: flex;
+  //      flex-direction: column;
+  //      align-items: flex-end;
+  //      text-align: end;
+  //  }
 }
