@@ -30,18 +30,16 @@
 
     <main>
       <!--Contact page-->
-      <div class="container">
-        <h1 class="title_1">CONTACTO</h1>
-        <p class="description">
+      <div class="contact-container">
+        <h1 class="contact-title">CONTACTO</h1>
+        <p class="contact-description">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nunc rutrum
           ullamcorper mauris, vel convallis metus eleifend in.
         </p>
         <p class="small_text">
-          <small
-            >Todos lo campos marcados con
-            <span class="title--description__small__aqua">*</span> son
-            obligatorios.
-          </small>
+          Todos lo campos marcados con
+          <span class="title--description__small__aqua">*</span> son
+          obligatorios.
         </p>
         <!--Name-->
         <form
@@ -59,11 +57,12 @@
               name="name"
               placeholder="Nombre..."
               required
-          /></label>
-
+            />
+          </label>
           <!--Email-->
           <label class="form--label" for="email">
             Email <span class="title--description__small__aqua">*</span>
+
             <input
               class="form--input"
               id="email"
@@ -72,7 +71,8 @@
               pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
               value="nombre.apellidos@mail.com"
               required
-          /></label>
+            />
+          </label>
 
           <!--Telephone-->
           <label class="form--label" for="telephone">
@@ -83,18 +83,20 @@
               type="tel"
               name="telephone"
               placeholder="Ej: 123456789"
-          /></label>
+            />
+          </label>
 
           <!--Message-->
           <label class="form--label" for="message">
-            Mensaje <span class="title--description__small__aqua">*</span>
+            Mensaje
+            <span class="title--description__small__aqua">*</span>
             <textarea
-              class="form--textarea"
+              class="form--input"
               id="message"
               type="text"
               name="message"
               placeholder="¿Qué necesitas?"
-              cols="80"
+              cols="20"
               rows="8"
               required
             >
@@ -102,7 +104,7 @@
           </label>
 
           <!--Submit-->
-          <input class="form--sumbit" type="submit" value="ENVIAR" />
+          <input class="form--submit" type="submit" value="ENVIAR" />
         </form>
       </div>
     </main>
