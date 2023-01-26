@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Las PowerTeam</title>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@500&display=swap"
-        rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@500&display=swap"
+      rel="stylesheet"
+    />
 
-    <script src="https://kit.fontawesome.com/6885363b9f.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/6885363b9f.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <!-- <link rel="stylesheet" href="./css/reset.css" /> -->
@@ -17,63 +21,128 @@
     <link rel="stylesheet" href="./assets/css/main.css" />
     <!-- <link rel="stylesheet" href="./css/tablet.css" />
     <link rel="stylesheet" href="./css/desktop.css" /> -->
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Start Section Lau-->
     <header class="header">
-      <h1 class="team_name">Las PowerTeam</h1>
+      <a
+        class="header--link"
+        href="http://beta.adalab.es/project-promo-s-module-1-team-2/"
+      >
+        <h1 class="team_name">Las PowerTeam</h1>
+      </a>
       <nav class="nav_container">
         <ul class="nav_list">
-          <li><a class="link_item" href="#team">Equipo</a></li>
-          <li><a class="link_item" href="#about-us">Quienes somos</a></li>
+          <li>
+            <a
+              class="link_item"
+              href="http://beta.adalab.es/project-promo-s-module-1-team-2/#team"
+              >Equipo</a
+            >
+          </li>
+          <li>
+            <a
+              class="link_item"
+              href="http://beta.adalab.es/project-promo-s-module-1-team-2/#about-us"
+              >Quienes somos</a
+            >
+          </li>
           <li><a class="link_item" href="../contact.html">Contacto</a></li>
         </ul>
       </nav>
     </header>
 
+    <!-- <section class="section_1">
+   <div class="container">
+     <h2 class="title_2">
+       Lo simple puede ser más difícil que lo complejo. Tienes que trabajar duro
+       manteniendo tu mente clara para hacer las cosas simples.
+     </h2>
+   </div>
+ </section>
+ -->
 
     <main>
-        <!--Contact page-->
-        <img src="" alt="">
-        <div class="container">
-            <h1 class="title_1">CONTACTO</h1>
-            <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nunc rutrum ullamcorper mauris, vel convallis metus eleifend in.</p>
-            <p class="small_text">
-                <small>Todos lo campos marcados con <span class="title--description__small__aqua">*</span> son obligatorios.
-                </small>
-            </p>
-            <!--Name-->
-            <form class="form" action="#" method="post">
-                <label class="form--label" for="name">
-                    Nombre Completo <span class="title--description__small__aqua">*</span>
-                </label>
-                <input class="form--input" id="name" type="text" name="name" placeholder="Nombre..." required/>
+      <div class="img-container"></div>
+      <!--Contact page-->
+      <div class="contact-container">
+        <h1 class="contact-title">CONTACTO</h1>
+        <p class="contact-description">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nunc rutrum
+          ullamcorper mauris, vel convallis metus eleifend in.
+        </p>
+        <p class="small_text">
+          Todos lo campos marcados con
+          <span class="title--description__small__aqua">*</span> son
+          obligatorios.
+        </p>
+        <!--Name-->
+        <form
+          class="form"
+          action="https://formspree.io/f/myyakzyb"
+          method="post"
+        >
+          <label class="form--label" for="name">
+            Nombre Completo
+            <span class="title--description__small__aqua">*</span>
+            <input
+              class="form--input"
+              id="name"
+              type="text"
+              name="name"
+              placeholder="Nombre..."
+              required
+            />
+          </label>
+          <!--Email-->
+          <label class="form--label" for="email">
+            Email <span class="title--description__small__aqua">*</span>
 
-            <!--Email-->
-                <label class="form--label" for="email">
-                    Email <span class="title--description__small__aqua">*</span>
-                </label>
-                <input class="form--input" id="email" type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" value="nombre.apellidos@mail.com" required />
+            <input
+              class="form--input"
+              id="email"
+              type="email"
+              name="email"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+              value="nombre.apellidos@mail.com"
+              required
+            />
+          </label>
 
-            <!--Telephone-->
-                <label class="form--label" for="telephone">
-                    Teléfono
-                </label>
-                <input class="form--input" id="telephone" type="tel" name="telephone" placeholder="Ej: 123456789">
+          <!--Telephone-->
+          <label class="form--label" for="telephone">
+            Teléfono
+            <input
+              class="form--input"
+              id="telephone"
+              type="tel"
+              name="telephone"
+              placeholder="Ej: 123456789"
+            />
+          </label>
 
-            <!--Message-->
-                <label class="form--label" for="message">
-                    Mensaje <span class="title--description__small__aqua">*</span>
-                </label>
-                <textarea class="form--textarea" id="message" type="text" name="message" placeholder="¿Qué necesitas?" cols="80" rows="8" required>
-                </textarea>
+          <!--Message-->
+          <label class="form--label" for="message">
+            Mensaje
+            <span class="title--description__small__aqua">*</span>
+            <textarea
+              class="form--input"
+              id="message"
+              type="text"
+              name="message"
+              placeholder="¿Qué necesitas?"
+              cols="20"
+              rows="8"
+              required
+            >
+            </textarea>
+          </label>
 
-            <!--Submit-->
-                <input class="form--sumbit" type="submit" value="ENVIAR">
-            </form>
-        </div>
-        
+          <!--Submit-->
+          <input class="form--submit" type="submit" value="ENVIAR" />
+        </form>
+      </div>
     </main>
 
     <!-- Start Section Enrica-->
@@ -83,10 +152,18 @@
         <nav class="footer_nav">
           <ul class="footer_list">
             <li>
-              <a class="link_footer" href="#team">EQUIPO</a>
+              <a
+                class="link_footer"
+                href="http://beta.adalab.es/project-promo-s-module-1-team-2/#team"
+                >EQUIPO</a
+              >
             </li>
             <li>
-              <a class="link_footer" href="#about-us">QUIÉNES SOMOS</a>
+              <a
+                class="link_footer"
+                href="http://beta.adalab.es/project-promo-s-module-1-team-2/#about-us"
+                >QUIÉNES SOMOS</a
+              >
             </li>
             <li>
               <a class="link_footer" href="../contact.html">CONTACTO</a>
@@ -103,6 +180,5 @@
     </footer>
 
     <!-- End Section Enrica-->
-</body>
-
+  </body>
 </html>

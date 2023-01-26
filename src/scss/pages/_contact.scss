@@ -1,6 +1,11 @@
-.section_1 .title_2 {
-  // si pongo display none se aplica a todo la web no solo a contacto
-  display: none;
+// .section_1 .title_2 {
+// si pongo display none se aplica a todo la web no solo a contacto
+//   display: none;
+// }
+.img-container {
+  height: 42rem;
+  background: url(../images/makeiteasy2.jpg);
+  background-size: cover;
 }
 
 .contact-container {
