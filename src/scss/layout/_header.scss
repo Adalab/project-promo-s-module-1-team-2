@@ -14,7 +14,7 @@
     padding: 0 45px;
   }
   @media (min-width: 1200px) {
-    padding: 0 138px 0 142px;
+    padding-left: 138px;
   }
 }
 .team_name {
@@ -31,7 +31,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 0.5rem 1.063rem 0.438rem 1rem;
+  padding: 8px 16px 8px 16px;
   display: flex;
   @media (min-width: 768px) {
     background-color: $blue-green-color;
