@@ -59,10 +59,15 @@
   width: 94%;
   margin-bottom: 13px;
   height: 45px;
+  @media (min-width: 1200px) {
+    // Enrica: padding 0;
+    padding: 0 0 0 15px;
+  }
 }
 
 .form--input--message {
   height: 105px;
+  padding-top: 11px;
 }
 
 .container--form__submit {
@@ -99,19 +104,13 @@
 .form {
   @media (min-width: 1200px) {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 70% 30%;
   }
 }
 
 .form--label--name {
   @media (min-width: 1200px) {
     grid-column: span 2;
-  }
-}
-
-.form--input--name, .form--input--message {
-  @media (min-width: 768px) {
-    //width: 601px;
   }
 }
 
