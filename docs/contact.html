@@ -81,66 +81,62 @@
         <form
           class="form"
           action="https://formspree.io/f/myyakzyb"
-          method="post"
-        >
-          <label class="form--label" for="name">
+          method="post">
+          <label class="form--label form--label--name" for="name">
             Nombre Completo
             <span class="title--description__small__aqua">*</span>
             <input
-              class="form--input"
+              class="form--input form--input--name"
               id="name"
               type="text"
               name="name"
               placeholder="Nombre..."
-              required
-            />
+              required/>
           </label>
           <!--Email-->
-          <label class="form--label" for="email">
+          <label class="form--label form--label--email" for="email">
             Email <span class="title--description__small__aqua">*</span>
 
             <input
-              class="form--input"
+              class="form--input form--input--email"
               id="email"
               type="email"
               name="email"
               pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
               value="nombre.apellidos@mail.com"
-              required
-            />
+              required/>
           </label>
 
           <!--Telephone-->
-          <label class="form--label" for="telephone">
+          <label class="form--label form--label--telephone" for="telephone">
             Teléfono
             <input
-              class="form--input"
+              class="form--input form--input--telephone"
               id="telephone"
               type="tel"
               name="telephone"
-              placeholder="Ej: 123456789"
-            />
+              placeholder="Ej: 123456789"/>
           </label>
 
           <!--Message-->
-          <label class="form--label" for="message">
+          <label class="form--label  form--label--message" for="message">
             Mensaje
             <span class="title--description__small__aqua">*</span>
             <textarea
-              class="form--input"
+              class="form--input form--input--message"
               id="message"
               type="text"
               name="message"
               placeholder="¿Qué necesitas?"
               cols="20"
               rows="8"
-              required
-            >
-            </textarea>
+              required></textarea>
           </label>
 
           <!--Submit-->
-          <input class="form--submit" type="submit" value="ENVIAR" />
+          <div class="container--form__submit">
+            <input class="form--submit" type="submit" value="ENVIAR" />
+          </div>
         </form>
       </div>
     </main>
