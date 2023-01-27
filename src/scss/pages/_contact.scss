@@ -52,12 +52,24 @@
   padding: 11px 0 15px 15px;
   width: 94%;
   margin-bottom: 13px;
+  height: 45px;
 }
+
+.form--input--message {
+  height: 105px;
+}
+
 .container--form__submit {
   @media (min-width: 768px) {
     display: flex;
     justify-content: flex-end;
     padding-right: 20px;
+  }
+  @media (min-width: 1200px) {
+    display: inline-block;
+    grid-row: 4;
+    grid-column: 2;
+    justify-self: end;
   }
 }
 .form--submit {
@@ -72,5 +84,46 @@
   margin-bottom: 60px;
   @media (min-width: 768px) {
     width: 20%;
+  }
+  @media (min-width: 1200px) {
+    width: 278px;
+  }
+}
+
+.form {
+  @media (min-width: 1200px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.form--label--name {
+  @media (min-width: 1200px) {
+    grid-column: span 2;
+  }
+}
+
+.form--label--email {
+  @media (min-width: 1200px) {
+    width: 395px;
+    display: inline-block;
+    grid-row: 2;
+  }
+}
+
+.form--label--telephone {
+  @media (min-width: 1200px) {
+    width: 162px;
+    display: inline-block;
+    grid-column: 2;
+    grid-row: 2;
+  }
+}
+
+.form--label--message {
+  @media (min-width: 1200px) {
+    display: inline-block;
+    grid-column: span 2;
+    grid-row: 3;
   }
 }
