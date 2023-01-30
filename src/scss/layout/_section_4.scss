@@ -3,7 +3,7 @@
   padding-top: 30px;
   @media (min-width: 768px) {
     padding-top: 45px;
-}
+  }
 }
 .section_4 .article {
   @media (min-width: 768px) {
@@ -21,7 +21,7 @@
     margin-bottom: 60px;
   }
 }
-.section_4 .article:nth-child(2n + 1) {
+.section_4 .article:nth-child(even) {
   @media (min-width: 768px) {
     flex-direction: row-reverse;
   }
@@ -29,25 +29,24 @@
     flex-direction: row-reverse;
   }
 }
-.section_4 .article:nth-child(2n + 1) .name_member {
+.section_4 .article:nth-child(even) .name_member {
   @media (min-width: 768px) {
     width: 100%;
     text-align: right;
   }
 }
-.section_4 .article:nth-child(2n + 1) .description {
+.section_4 .article:nth-child(even) .description {
   @media (min-width: 768px) {
     width: 100%;
     text-align: right;
   }
 }
 
-.section_4 .article:nth-child(2n + 1) .icon_list_member {
+.section_4 .article:nth-child(even) .icon_list_member {
   @media (min-width: 768px) {
     width: 100%;
     display: flex;
     justify-content: right;
-    
   }
 }
 .info_member {
@@ -87,7 +86,7 @@
   color: $dark-grey-color;
   @media (min-width: 768px) {
     padding: 0;
-}
+  }
 }
 
 .name_member {
